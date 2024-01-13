@@ -1,10 +1,10 @@
-const STORAGE_TOKEN = 'JQYISAUGOJA02ZR3LJ7UWYMCUGXABN24CUUI607C';
+const STORAGE_TOKEN = '1YRWAS0K0ANE8V9H1ZYGK0L9C07D6YLVFC926XYS';
 const STORAGE_URL = 'https://remote-storage.developerakademie.org/item';
 const key = 'content';
 
 
 /**
- * This function sends and save the data on the backend
+ * This function sends and saves the data on the backend
  * 
  * @param {*} key its the key to find the right data on the backend with this key
  * @param {*} contentArray this is the array with the first information for this website, it will update when on the backend

@@ -203,9 +203,11 @@ aside {
     .summary-content {
         justify-content: center;
         max-height: 400px;
+        margin-top: 20px;
     }
 
     .headlines {
+        max-width: 300px;
         display: block;
     }
 
@@ -236,9 +238,6 @@ aside {
         transform: scale(0.8);
     }
 
-    .summary-content {
-        margin-top: -50px;
-    }
 }
 
 
@@ -262,7 +261,7 @@ aside {
 
 
     .summary-content {
-        margin-top: -80px;
+        margin-top: -50px;
     }
 
 
@@ -274,5 +273,12 @@ aside {
         margin-bottom: 50px;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .summary-h1 {
+        font-size: 45px;
+        margin-top: -15px;
+        margin-bottom: 10px;
+       
     }
 }

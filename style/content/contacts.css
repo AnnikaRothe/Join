@@ -107,7 +107,7 @@
 .overflow-scroll {
     margin-left: 5%;
     margin-right: 2%;
-    height: 78vh;
+    height: calc(100vh - 221px);
     overflow-y: scroll;
 }
 
@@ -194,27 +194,10 @@
     color: #29ABE2;
 }
 
-@media (max-height: 741px) {
-    .overflow-scroll {
-        margin-left: 5%;
-        margin-right: 2%;
-        height: 65vh;
-        overflow-y: scroll;
-    }
-}
-
-@media (max-height: 650px) {
-    .overflow-scroll {
-        margin-left: 5%;
-        margin-right: 2%;
-        height: 60vh;
-        overflow-y: scroll;
-    }
-}
 
 @media (min-width: 801px) {
     .overflow-scroll {
-        height: 91vh;
+        height: calc(100vh-89px);
     }
 
     .contact-dude-button {
